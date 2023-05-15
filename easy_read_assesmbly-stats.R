@@ -4,7 +4,7 @@ library(stringr)
 assemblyStatsPath <- "./assembly-stats"
 
 # Specify the path to the dataset file
-lrDatasetFile <- "~/Assignment2/flye_assembly_output/pacbio_LR_30x_assembly/assembly.fasta"
+lrDatasetFile <- "~/flye_assembly_output/pacbio_LR_30x_assembly/assembly.fasta"
 
 # Define a function to run assembly-stats and extract information
 runAssemblyStats <- function(assemblyStatsPath, lrDatasetFile) {
